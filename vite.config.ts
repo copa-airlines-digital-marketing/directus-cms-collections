@@ -1,11 +1,13 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
+import { resolve } from 'path';
 
 export default defineConfig({
-  build: {
-    lib: {
-      entry: './src/index.ts',  // El punto de entrada de tu librería
-      name: 'directus-cms-collections',       // El nombre global de tu librería
-      fileName: (format) => `directus-cms-collections.${format}.js`,  // El nombre del archivo generado
+  build: { lib: { entry: resolve(__dirname, 'src/main.ts'), formats: ['es'] } },
+  resolve: { alias: { src: resolve('src/') } },
+  test: {
+    setupFiles: ['src/setupTests.ts'],
+    coverage: {
+      exclude: ['*.config.*', '*.d.ts'],
     },
   },
 });

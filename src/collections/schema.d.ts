@@ -1,3 +1,3 @@
 interface Schema {
-
+  destinations: unknown;
 }
