@@ -1,0 +1,3 @@
+type PageStorefrontSection = {
+  id: number;
+};
