@@ -26,9 +26,7 @@ const getTours = async (
   query?: Query<Schema, StopoverTour>,
 ) => {
   const client = createDirectusClient(url, token);
-  const items = await client
-    .request(readItems('stopover_tour', query))
-    .catch(logAndReturn([<StopoverTour>{}]));
+  const items = await client.request(readItems('stopover_tour', query));
   return items;
 };
 
