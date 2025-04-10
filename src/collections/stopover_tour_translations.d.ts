@@ -1,4 +1,4 @@
-import type { StopoverTour } from './stopover_tours';
+import type { StopoverTour } from './stopover_tours/stopover_tours';
 import type { Lang } from './lang';
 
 type StopoverTourTranslations = {

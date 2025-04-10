@@ -8,7 +8,7 @@ import {
   staticToken,
 } from '@directus/sdk';
 import type { Schema } from './collections/schema';
-import { StopoverTour } from './collections/stopover_tours';
+import { StopoverTour } from './collections/stopover_tours/stopover_tours';
 
 const logAndReturn =
   <T>(value: T) =>
