@@ -45,8 +45,8 @@ export type StopoverTour = {
   gallery: string[] | StopoverTourFiles[];
   duration: number;
   start_time: null | string;
-  meeting_point: null | unknown;
-  end_point: null | unknown;
+  meeting_point: null | MapInput;
+  end_point: null | MapInput;
   category: null | ExperienceType[];
   supported_languages: 'es' | 'en' | 'pt' | 'fr';
   pilar: null | PilarType[];
