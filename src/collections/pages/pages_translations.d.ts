@@ -1,7 +1,4 @@
-import type { Page } from './pages';
-import type { Language } from './languages';
-
-type PageTranslation = {
+type PagesTranslations = {
   id: number;
   pages_id: number | Page;
   languages_code: string | Language;

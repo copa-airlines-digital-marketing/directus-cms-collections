@@ -7,8 +7,9 @@ import {
   rest,
   staticToken,
 } from '@directus/sdk';
-import type { Schema } from './collections/schema';
 import { StopoverTour } from './collections/stopover_tours/stopover_tours';
+import { getASite, getSites } from './collections/sites';
+import { getASection, getSections } from './collections/sections';
 
 const logAndReturn =
   <T>(value: T) =>
@@ -68,4 +69,13 @@ const getAPackage = async (
   return items;
 };
 
-export { getTours, getATour, getPackages, getAPackage };
+export {
+  getTours,
+  getATour,
+  getPackages,
+  getAPackage,
+  getASite,
+  getSites,
+  getSections,
+  getASection,
+};

@@ -1,0 +1,20 @@
+type Sections = {
+  id: number;
+  name: string[];
+  status: string;
+  section_id: any;
+  landmark: string;
+  background_color: any;
+  vertical_spacing: string;
+  horizontal_behaviour: string;
+  content_spacing: string;
+  content_horizontal_alignment: string;
+  content_horizontal_distribution: string;
+  content_vertical_alignment: string;
+  content_vertical_distribution: string;
+  component: any;
+  section_content: string[];
+  storefronts: number[] | PagesStorefronts[];
+  section_content: ContentGroup[];
+  page_storefronts: PagesStorefronts[];
+};

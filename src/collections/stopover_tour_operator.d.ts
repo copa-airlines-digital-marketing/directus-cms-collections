@@ -1,5 +1,5 @@
 import type { StopoverTour } from './stopover_tours/stopover_tours';
-import type { Page } from './pages';
+import type { Page } from './pages/pages';
 
 type StopoverTourOperatorStatus =
   | 'archived'

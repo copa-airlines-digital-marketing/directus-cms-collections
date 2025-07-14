@@ -1,20 +1,16 @@
-import type { Lang } from './lang';
-import type { Language } from './languages';
-import type { Page } from './pages';
-import type { PageTranslation } from './pages_translations';
-import type { PageStorefront } from './pages_storefronts';
-import type { PageStorefrontSection } from './pages_storefronts_sections';
-import type { StopoverTour } from './stopover_tours/stopover_tours';
-import type { StopoverTourTranslations } from './stopover_tour_translations';
-import type { StopoverTourFiles } from './stopover_tour_files';
-
 interface Schema {
+  content_group: ContentGroup[];
+  content_group_content: ContentGroupContent[];
   lang: Lang[];
-  languages: Language[];
+  languages: Languages[];
   pages: Page[];
-  pages_translations: PageTranslation[];
-  pages_storefronts: PageStorefront[];
+  pages_translations: PagesTranslations[];
+  pages_storefronts: PagesStorefronts[];
   pages_storefronts_sections: PageStorefrontSection[];
+  sections: Sections[];
+  sites: Sites[];
+  sites_locales: SitesLocales[];
+  sites_pages: SitesPages[];
   stopover_package: StopoverPackage[];
   stopover_package_files: StopoverPackageFile[];
   stopover_package_translations: StopoverPackageTranslation[];
@@ -22,4 +18,8 @@ interface Schema {
   stopover_tour: StopoverTour[];
   stopover_tour_files: StopoverTourFiles[];
   stopover_tour_translation: StopoverTourTranslations[];
+  storefronts: Storefronts[];
+  text_content: TextContent[];
+  text_content_image: TextContentImage[];
+  text_content_translations: TextContentTranslation[];
 }

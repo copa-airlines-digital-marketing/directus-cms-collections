@@ -1,5 +1,5 @@
 import type { StopoverTour } from './stopover_tours/stopover_tours';
-import type { Lang } from './lang';
+import type { Lang } from './general_settings/lang';
 
 type StopoverTourTranslations = {
   id: number;

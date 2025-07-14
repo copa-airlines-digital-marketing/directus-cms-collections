@@ -1,3 +1,0 @@
-type PageStorefront = {
-  id: number;
-};
