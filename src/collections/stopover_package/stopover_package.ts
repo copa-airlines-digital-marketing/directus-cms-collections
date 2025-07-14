@@ -1,3 +1,6 @@
+import { StopoverPackageFiles } from './stopover_package_files';
+import { StopoverPackageTranslation } from './stopover_package_translations';
+
 type PackageStatus =
   | 'archived'
   | 'error'
@@ -13,7 +16,7 @@ type PackageContact = {
   contact: string;
 };
 
-type PackageSupportedLanguages = en | es | pt;
+type PackageSupportedLanguages = 'en' | 'es' | 'pt';
 
 type StopoverPackage = {
   id: number;
@@ -31,7 +34,7 @@ type StopoverPackage = {
   status: PackageStatus;
   nights: number;
   main_image: string;
-  gallery: number[] | StopoverPackageFile[];
+  gallery: number[] | StopoverPackageFiles[];
   contact: null | PackageContact[];
   supported_languages: PackageSupportedLanguages[];
   promo_code: null | string;
@@ -39,3 +42,5 @@ type StopoverPackage = {
   promo_discount_percent: null | number;
   translations: null | number[] | StopoverPackageTranslation[];
 };
+
+export type { StopoverPackage };

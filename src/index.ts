@@ -44,38 +44,4 @@ const getATour = async (
   return items;
 };
 
-const getPackages = async (
-  url: string,
-  token: string,
-  query?: Query<Schema, StopoverPackage>,
-) => {
-  const client = createDirectusClient(url, token);
-  const items = await client
-    .request(readItems('stopover_package', query))
-    .catch(logAndReturn([<StopoverPackage>{}]));
-  return items;
-};
-
-const getAPackage = async (
-  url: string,
-  token: string,
-  id: string | number,
-  query?: QueryItem<Schema, StopoverPackage>,
-) => {
-  const client = createDirectusClient(url, token);
-  const items = await client
-    .request(readItem('stopover_package', id, query))
-    .catch(logAndReturn(<StopoverPackage>{}));
-  return items;
-};
-
-export {
-  getTours,
-  getATour,
-  getPackages,
-  getAPackage,
-  getASite,
-  getSites,
-  getSections,
-  getASection,
-};
+export { getTours, getATour, getASite, getSites, getSections, getASection };
