@@ -1,6 +1,6 @@
 import { Query, QueryItem, readItem, readItems } from '@directus/sdk';
 import { StopoverPackage } from './stopover_package';
-import { createDirectusClient, logAndReturn } from 'src/utils';
+import { createDirectusClient, logAndReturn } from '../../utils';
 import { StopoverPackageFiles } from './stopover_package_files';
 import { StopoverPackageTranslation } from './stopover_package_translations';
 

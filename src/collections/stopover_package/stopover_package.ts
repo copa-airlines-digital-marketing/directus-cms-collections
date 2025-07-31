@@ -37,6 +37,7 @@ type StopoverPackage = {
   gallery: number[] | StopoverPackageFiles[];
   contact: null | PackageContact[];
   supported_languages: PackageSupportedLanguages[];
+  stay_region: 'city' | 'interior';
   promo_code: null | string;
   promo_discount_amount: null | number;
   promo_discount_percent: null | number;

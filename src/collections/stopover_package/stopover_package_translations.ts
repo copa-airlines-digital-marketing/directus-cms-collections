@@ -7,6 +7,8 @@ type StopoverPackageTranslation = {
   path: null | string;
   name: string;
   description: string;
+  included: null | { name: string }[];
+  not_included: null | { name: string }[];
   promo_name: null | string;
   promo_description: null | string;
   url: null | string;
