@@ -18,6 +18,9 @@ interface Schema {
   stopover_tour: StopoverTour[];
   stopover_tour_files: StopoverTourFiles[];
   stopover_tour_translation: StopoverTourTranslations[];
+  stopover_transportation: StopoverTransportation[];
+  stopover_transportation_files: StopoverTransportationFiles[];
+  stopover_transportation_translations: StopoverTransportationTranslations[];
   storefronts: Storefronts[];
   text_content: TextContent[];
   text_content_image: TextContentImage[];

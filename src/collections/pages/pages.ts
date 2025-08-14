@@ -1,5 +1,5 @@
 // pending other properties
-type Page = {
+export type Page = {
   id: number;
   storefronts: number[] | PagesStorefronts[];
   translations: number[] | PagesTranslations[];

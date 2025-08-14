@@ -1,3 +1,4 @@
+import { Languages } from '../general_settings/languages';
 import { StopoverPackage } from './stopover_package';
 
 type StopoverPackageTranslation = {

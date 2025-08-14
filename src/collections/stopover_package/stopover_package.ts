@@ -1,3 +1,4 @@
+import { Page } from '../pages/pages';
 import { StopoverPackageFiles } from './stopover_package_files';
 import { StopoverPackageTranslation } from './stopover_package_translations';
 
