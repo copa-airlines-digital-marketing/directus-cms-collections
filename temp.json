@@ -1,0 +1,149 @@
+[
+  {
+    "code": "CAD",
+    "symbol": "CA$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ",",
+    "decimal_separator": "."
+  },
+  {
+    "code": "USD",
+    "symbol": "$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ",",
+    "decimal_separator": "."
+  },
+  {
+    "code": "MXN",
+    "symbol": "MX$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "GTQ",
+    "symbol": "Q",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "BZD",
+    "symbol": "BZ$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ",",
+    "decimal_separator": "."
+  },
+  {
+    "code": "HNL",
+    "symbol": "L",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "NIO",
+    "symbol": "C$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "CRC",
+    "symbol": "₡",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "PAB",
+    "symbol": "B/.",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "COP",
+    "symbol": "COP$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "VES",
+    "symbol": "Bs.",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "GYD",
+    "symbol": "GY$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ",",
+    "decimal_separator": "."
+  },
+  {
+    "code": "SRD",
+    "symbol": "SRD$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "EUR",
+    "symbol": "€",
+    "format": "{amount} {symbol}",
+    "thousand_separator": " ",
+    "decimal_separator": ","
+  },
+  {
+    "code": "PEN",
+    "symbol": "S/",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "BOB",
+    "symbol": "Bs.",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "CLP",
+    "symbol": "CLP$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "ARS",
+    "symbol": "AR$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "UYU",
+    "symbol": "$U",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "PYG",
+    "symbol": "₲",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  },
+  {
+    "code": "BRL",
+    "symbol": "R$",
+    "format": "{symbol}{amount}",
+    "thousand_separator": ".",
+    "decimal_separator": ","
+  }
+]
