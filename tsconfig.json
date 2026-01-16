@@ -1,18 +1,20 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "target": "ESNext",
+    "target": "ES2022",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "lib": ["ES2022", "DOM"],
+    "types": ["node", "vitest/globals"],
     "skipLibCheck": true,
 
-    /* Bundler mode */
+    /* Module resolution */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "resolveJsonModule": true,
 
     /* Linting */
     "strict": true,
@@ -20,8 +22,15 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true
   },
-  "include": ["src"]
+  "include": ["src", "scripts", "tests"],
+  "exclude": ["node_modules", "dist", "src/index.test.ts", "tests/**/*.test.ts"]
 }

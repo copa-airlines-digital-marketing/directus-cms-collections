@@ -1,0 +1,54 @@
+/**
+ * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
+ * Generated from Directus collection: hero_slide_badge
+ */
+
+export interface Item_HeroSlideBadge {
+  content?: unknown;
+  date_created?: string | null;
+  date_updated?: string | null;
+  name?: string;
+  qa?: unknown;
+  style?: string;
+  translations?: unknown;
+  user_created?: string | null;
+  user_updated?: string | null;
+}
+
+import { getItem } from '../../runtime/getItem.js';
+import { getItems } from '../../runtime/getItems.js';
+import type { Query } from '../../runtime/query.js';
+
+/**
+ * Fetches multiple items from the hero_slide_badge collection
+ */
+export async function getManyHeroSlideBadge(
+  baseUrl: string,
+  token: string,
+  query?: Query<Item_HeroSlideBadge>,
+): Promise<Item_HeroSlideBadge[]> {
+  return getItems<Item_HeroSlideBadge>(
+    baseUrl,
+    'hero_slide_badge',
+    token,
+    query,
+  );
+}
+
+/**
+ * Fetches a single item from the hero_slide_badge collection
+ */
+export async function getOneHeroSlideBadge(
+  baseUrl: string,
+  token: string,
+  id: string | number,
+  query?: Query<Item_HeroSlideBadge>,
+): Promise<Item_HeroSlideBadge> {
+  return getItem<Item_HeroSlideBadge>(
+    baseUrl,
+    'hero_slide_badge',
+    token,
+    id,
+    query,
+  );
+}

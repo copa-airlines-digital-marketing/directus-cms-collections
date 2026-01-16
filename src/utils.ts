@@ -1,8 +1,15 @@
-import { createDirectus, rest, staticToken } from '@directus/sdk';
-import type { Schema } from './collections/schema';
+/**
+ * Legacy utilities - kept for backward compatibility
+ * Consider migrating to the new generated API
+ */
 
+import { createDirectus, rest, staticToken } from '@directus/sdk';
+
+/**
+ * @deprecated Use the new generated API with getItems/getItem instead
+ */
 const createDirectusClient = (url: string, token: string) =>
-  createDirectus<Schema>(url).with(staticToken(token)).with(rest());
+  createDirectus(url).with(staticToken(token)).with(rest());
 
 const logAndReturn =
   <T>(value: T) =>
