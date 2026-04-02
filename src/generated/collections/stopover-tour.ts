@@ -6,13 +6,17 @@
 import type { GeoJSON } from '../../client/types.js';
 
 export interface Item_StopoverTour {
-  category?: Record<string, unknown> | null;
+  category?: Record<string, unknown>;
   children?: unknown;
   date_created?: string | null;
+  date_published?: string | null;
+  date_reviewed?: string | null;
+  date_submitted?: string | null;
   date_updated?: string | null;
   duplicate: boolean;
   duration: number;
   end_point?: GeoJSON | null;
+  experience_category?: number | null;
   gallery: unknown;
   highlight?: boolean | null;
   id?: number;

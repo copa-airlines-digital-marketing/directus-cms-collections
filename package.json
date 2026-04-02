@@ -10,11 +10,15 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "prepare": "husky",
-    "test": "vitest run",
-    "test:cov": "vitest run --coverage",
-    "generate": "tsx scripts/generate.ts",
+    "test": "doppler run -p cms-directus-updates -c dev -- vitest run",
+    "test:cov": "doppler run -p cms-directus-updates -c dev -- vitest run --coverage",
+    "test:local": "vitest run",
+    "test:cov:local": "vitest run --coverage",
+    "generate": "doppler run -p cms-directus-updates -c dev -- tsx scripts/generate.ts",
+    "generate:local": "tsx scripts/generate.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "ci": "pnpm generate && pnpm typecheck && pnpm test",
+    "clean": "tsx scripts/clean-deprecated.ts",
     "clean:deprecated": "tsx scripts/clean-deprecated.ts"
   },
   "devDependencies": {

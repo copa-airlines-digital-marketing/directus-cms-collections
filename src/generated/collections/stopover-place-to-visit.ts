@@ -9,8 +9,12 @@ export interface Item_StopoverPlaceToVisit {
   category?: Record<string, unknown> | null;
   copa_only?: unknown;
   date_created?: string | null;
+  date_published?: string | null;
+  date_reviewed?: string | null;
+  date_submitted?: string | null;
   date_updated?: string | null;
   duration: string;
+  experience_category?: number | null;
   experiences?: unknown;
   gallery?: unknown;
   highlight?: boolean | null;

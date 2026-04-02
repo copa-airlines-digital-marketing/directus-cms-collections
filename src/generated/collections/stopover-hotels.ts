@@ -10,6 +10,9 @@ export interface Item_StopoverHotels {
   children?: unknown;
   copa_only?: unknown;
   date_created?: string | null;
+  date_published?: string | null;
+  date_reviewed?: string | null;
+  date_submitted?: string | null;
   date_updated?: string | null;
   gallery: unknown;
   highlight?: boolean | null;

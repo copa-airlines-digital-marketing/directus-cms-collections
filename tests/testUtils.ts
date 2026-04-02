@@ -1,4 +1,8 @@
 import { config } from 'dotenv';
+import {
+  resolveDirectusStaticToken,
+  resolveDirectusUrl,
+} from '../scripts/lib/directusEnv.js';
 
 // Load environment variables for tests
 config();
@@ -7,12 +11,12 @@ config();
  * Gets test configuration from environment
  */
 export function getTestConfig() {
-  const baseUrl = process.env.DIRECTUS_URL;
-  const token = process.env.DIRECTUS_STATIC_TOKEN;
+  const baseUrl = resolveDirectusUrl();
+  const token = resolveDirectusStaticToken();
 
   if (!baseUrl || !token) {
     throw new Error(
-      'Missing test configuration. Please set DIRECTUS_URL and DIRECTUS_STATIC_TOKEN in .env',
+      'Missing test configuration. Add DIRECTUS_URL and DIRECTUS_STATIC_TOKEN (or DIRECTUS_TOKEN) in Doppler and run pnpm test, or use .env with pnpm test:local',
     );
   }
 

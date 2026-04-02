@@ -9,6 +9,10 @@ export type { Item_Airport } from './collections/airport.js';
 export type { Item_AirportT } from './collections/airport-t.js';
 export type { Item_Audience } from './collections/audience.js';
 export type { Item_Carrousel } from './collections/carrousel.js';
+export type { Item_Categories } from './collections/categories.js';
+export type { Item_CategoriesDomain } from './collections/categories-domain.js';
+export type { Item_CategoriesTranslations } from './collections/categories-translations.js';
+export type { Item_CategoryScopes } from './collections/category-scopes.js';
 export type { Item_City } from './collections/city.js';
 export type { Item_CityT } from './collections/city-t.js';
 export type { Item_CmRegionFlown } from './collections/cm-region-flown.js';
@@ -66,7 +70,6 @@ export type { Item_HeroTranslations } from './collections/hero-translations.js';
 export type { Item_HotelAmenities } from './collections/hotel-amenities.js';
 export type { Item_HotelAmenitiesTranslations } from './collections/hotel-amenities-translations.js';
 export type { Item_Icons } from './collections/icons.js';
-export type { Item_ItemList } from './collections/item-list.js';
 export type { Item_Itinerary } from './collections/itinerary.js';
 export type { Item_ItineraryAudience } from './collections/itinerary-audience.js';
 export type { Item_ItineraryDay } from './collections/itinerary-day.js';
@@ -123,6 +126,9 @@ export type { Item_StopoverHotelModule } from './collections/stopover-hotel-modu
 export type { Item_StopoverHotels } from './collections/stopover-hotels.js';
 export type { Item_StopoverHotelsFiles } from './collections/stopover-hotels-files.js';
 export type { Item_StopoverHotelsTranslations } from './collections/stopover-hotels-translations.js';
+export type { Item_StopoverMixedExperienceModule } from './collections/stopover-mixed-experience-module.js';
+export type { Item_StopoverMixedExperienceModuleSources } from './collections/stopover-mixed-experience-module-sources.js';
+export type { Item_StopoverMixedExperienceModuleTranslations } from './collections/stopover-mixed-experience-module-translations.js';
 export type { Item_StopoverPackage } from './collections/stopover-package.js';
 export type { Item_StopoverPackageFiles } from './collections/stopover-package-files.js';
 export type { Item_StopoverPackageTranslations } from './collections/stopover-package-translations.js';
@@ -160,6 +166,22 @@ export { getManyAirport, getOneAirport } from './collections/airport.js';
 export { getManyAirportT, getOneAirportT } from './collections/airport-t.js';
 export { getManyAudience, getOneAudience } from './collections/audience.js';
 export { getManyCarrousel, getOneCarrousel } from './collections/carrousel.js';
+export {
+  getManyCategories,
+  getOneCategories,
+} from './collections/categories.js';
+export {
+  getManyCategoriesDomain,
+  getOneCategoriesDomain,
+} from './collections/categories-domain.js';
+export {
+  getManyCategoriesTranslations,
+  getOneCategoriesTranslations,
+} from './collections/categories-translations.js';
+export {
+  getManyCategoryScopes,
+  getOneCategoryScopes,
+} from './collections/category-scopes.js';
 export { getManyCity, getOneCity } from './collections/city.js';
 export { getManyCityT, getOneCityT } from './collections/city-t.js';
 export {
@@ -346,7 +368,6 @@ export {
   getOneHotelAmenitiesTranslations,
 } from './collections/hotel-amenities-translations.js';
 export { getManyIcons, getOneIcons } from './collections/icons.js';
-export { getManyItemList, getOneItemList } from './collections/item-list.js';
 export { getManyItinerary, getOneItinerary } from './collections/itinerary.js';
 export {
   getManyItineraryAudience,
@@ -520,6 +541,18 @@ export {
   getManyStopoverHotelsTranslations,
   getOneStopoverHotelsTranslations,
 } from './collections/stopover-hotels-translations.js';
+export {
+  getManyStopoverMixedExperienceModule,
+  getOneStopoverMixedExperienceModule,
+} from './collections/stopover-mixed-experience-module.js';
+export {
+  getManyStopoverMixedExperienceModuleSources,
+  getOneStopoverMixedExperienceModuleSources,
+} from './collections/stopover-mixed-experience-module-sources.js';
+export {
+  getManyStopoverMixedExperienceModuleTranslations,
+  getOneStopoverMixedExperienceModuleTranslations,
+} from './collections/stopover-mixed-experience-module-translations.js';
 export {
   getManyStopoverPackage,
   getOneStopoverPackage,

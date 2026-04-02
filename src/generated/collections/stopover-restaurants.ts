@@ -9,6 +9,9 @@ export interface Item_StopoverRestaurants {
   copa_only?: unknown;
   cuisines?: Record<string, unknown> | null;
   date_created?: string | null;
+  date_published?: string | null;
+  date_reviewed?: string | null;
+  date_submitted?: string | null;
   date_updated?: string | null;
   duplicate: boolean;
   gallery: unknown;

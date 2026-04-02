@@ -18,12 +18,16 @@ A TypeScript library that generates strict typings and GET-only query helpers fo
 pnpm install
 ```
 
-2. Configure environment variables:
+2. Configure secrets with [Doppler](https://docs.doppler.com/docs/install-cli) (recommended):
 
 ```bash
-cp .env.example .env
-# Edit .env with your Directus URL and static token
+doppler login
+# Ensure doppler.yaml project/config matches your Doppler project (or run: doppler setup)
 ```
+
+In that Doppler config, add: `DIRECTUS_URL` and `DIRECTUS_STATIC_TOKEN` or `DIRECTUS_TOKEN` (static access token).
+
+**Without Doppler:** use a `.env` file in the repo root with those variables and run `pnpm generate:local` / `pnpm test:local`.
 
 3. Generate types from your Directus schema:
 
@@ -232,9 +236,7 @@ cd libs/directus-types
 # Install dependencies
 pnpm install
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your Directus credentials
+# Configure secrets (Doppler: doppler login + doppler.yaml, or .env + pnpm generate:local)
 
 # Generate types
 pnpm generate
@@ -459,7 +461,7 @@ filter: {
 
 ### "Missing required environment variables"
 
-Make sure you have a `.env` file with `DIRECTUS_URL` and `DIRECTUS_STATIC_TOKEN`.
+Add `DIRECTUS_URL` and `DIRECTUS_STATIC_TOKEN` in Doppler for the config in `doppler.yaml`, or use a `.env` file and `pnpm generate:local` / `pnpm test:local`.
 
 ### "Failed to fetch collections: 401"
 

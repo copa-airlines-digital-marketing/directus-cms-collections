@@ -1,0 +1,6 @@
+# Links this repo to a Doppler project/config. Edit to match your dashboard or run:
+#   doppler setup
+# Required secrets: DIRECTUS_URL and DIRECTUS_STATIC_TOKEN or DIRECTUS_TOKEN
+setup:
+  - project: cms-directus-updates
+    config: dev

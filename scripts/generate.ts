@@ -16,6 +16,10 @@ import {
   emitIndexFile,
   emitSchemaFile,
 } from './output/emit.js';
+import {
+  resolveDirectusStaticToken,
+  resolveDirectusUrl,
+} from './lib/directusEnv.js';
 
 // Load environment variables
 config();
@@ -32,14 +36,15 @@ async function generate(): Promise<void> {
   console.log('🚀 Starting Directus schema generation...\n');
 
   // Step 1: Read and validate environment variables
-  const DIRECTUS_URL = process.env.DIRECTUS_URL;
-  const DIRECTUS_STATIC_TOKEN = process.env.DIRECTUS_STATIC_TOKEN;
+  const DIRECTUS_URL = resolveDirectusUrl();
+  const DIRECTUS_STATIC_TOKEN = resolveDirectusStaticToken();
 
   if (!DIRECTUS_URL || !DIRECTUS_STATIC_TOKEN) {
     console.error('❌ Error: Missing required environment variables');
     console.error(
-      '   Please set DIRECTUS_URL and DIRECTUS_STATIC_TOKEN in your .env file',
+      '   Set DIRECTUS_URL and DIRECTUS_STATIC_TOKEN (or DIRECTUS_TOKEN) in Doppler, then: pnpm generate',
     );
+    console.error('   Or use a .env file with: pnpm generate:local');
     process.exit(1);
   }
 
