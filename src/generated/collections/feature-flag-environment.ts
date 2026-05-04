@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: feature_flag_environment
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_FeatureFlagEnvironment {
   environment_key?: string | null;
   feature_flag_id?: string | null;
@@ -15,6 +25,9 @@ import type { Query } from '../../runtime/query.js';
 
 /**
  * Fetches multiple items from the feature_flag_environment collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getManyFeatureFlagEnvironment(
   baseUrl: string,
@@ -31,6 +44,9 @@ export async function getManyFeatureFlagEnvironment(
 
 /**
  * Fetches a single item from the feature_flag_environment collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneFeatureFlagEnvironment(
   baseUrl: string,

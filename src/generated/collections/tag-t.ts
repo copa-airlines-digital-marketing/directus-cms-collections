@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: tag_t
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_TagT {
   id?: number;
   label?: string | null;
@@ -17,6 +27,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the tag_t collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyTagT(
   baseUrl: string,
   token: string,
@@ -27,6 +40,9 @@ export async function getManyTagT(
 
 /**
  * Fetches a single item from the tag_t collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneTagT(
   baseUrl: string,

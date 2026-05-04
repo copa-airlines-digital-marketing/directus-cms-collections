@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: sites
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_Sites {
   advanced_settings?: unknown;
   articles_association?: unknown;
@@ -38,6 +48,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the sites collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManySites(
   baseUrl: string,
   token: string,
@@ -48,6 +61,9 @@ export async function getManySites(
 
 /**
  * Fetches a single item from the sites collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneSites(
   baseUrl: string,

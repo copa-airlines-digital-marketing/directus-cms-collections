@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: experiment_variant
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_ExperimentVariant {
   date_created?: string | null;
   date_updated?: string | null;
@@ -23,6 +33,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the experiment_variant collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyExperimentVariant(
   baseUrl: string,
   token: string,
@@ -38,6 +51,9 @@ export async function getManyExperimentVariant(
 
 /**
  * Fetches a single item from the experiment_variant collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneExperimentVariant(
   baseUrl: string,

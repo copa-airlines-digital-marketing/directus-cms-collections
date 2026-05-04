@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: languages
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_Languages {
   code: string;
   date_created?: string | null;
@@ -20,6 +30,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the languages collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyLanguages(
   baseUrl: string,
   token: string,
@@ -30,6 +43,9 @@ export async function getManyLanguages(
 
 /**
  * Fetches a single item from the languages collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneLanguages(
   baseUrl: string,

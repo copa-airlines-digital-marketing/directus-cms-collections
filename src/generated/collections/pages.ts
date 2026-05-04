@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: pages
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_Pages {
   advanced_settings?: unknown;
   associated_articles?: unknown;
@@ -42,6 +52,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the pages collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyPages(
   baseUrl: string,
   token: string,
@@ -52,6 +65,9 @@ export async function getManyPages(
 
 /**
  * Fetches a single item from the pages collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOnePages(
   baseUrl: string,

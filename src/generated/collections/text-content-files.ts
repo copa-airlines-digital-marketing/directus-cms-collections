@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: Text_Content_files
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_TextContentFiles {
   directus_files_id?: string | null;
   id?: number;
@@ -15,6 +25,9 @@ import type { Query } from '../../runtime/query.js';
 
 /**
  * Fetches multiple items from the Text_Content_files collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getManyTextContentFiles(
   baseUrl: string,
@@ -31,6 +44,9 @@ export async function getManyTextContentFiles(
 
 /**
  * Fetches a single item from the Text_Content_files collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneTextContentFiles(
   baseUrl: string,

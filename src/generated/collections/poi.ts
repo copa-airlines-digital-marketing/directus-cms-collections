@@ -1,10 +1,20 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: poi
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
 import type { GeoJSON } from '../../client/types.js';
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_Poi {
   address_freeform?: string | null;
   category?: string | null;
@@ -33,6 +43,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the poi collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyPoi(
   baseUrl: string,
   token: string,
@@ -43,6 +56,9 @@ export async function getManyPoi(
 
 /**
  * Fetches a single item from the poi collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOnePoi(
   baseUrl: string,

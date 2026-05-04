@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: stopover_place_to_visit_translations
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_StopoverPlaceToVisitTranslations {
   description?: string | null;
   id?: number;
@@ -22,6 +32,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the stopover_place_to_visit_translations collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyStopoverPlaceToVisitTranslations(
   baseUrl: string,
   token: string,
@@ -37,6 +50,9 @@ export async function getManyStopoverPlaceToVisitTranslations(
 
 /**
  * Fetches a single item from the stopover_place_to_visit_translations collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverPlaceToVisitTranslations(
   baseUrl: string,

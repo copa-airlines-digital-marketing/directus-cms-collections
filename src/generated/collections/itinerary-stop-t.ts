@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: itinerary_stop_t
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_ItineraryStopT {
   custom_body?: Record<string, unknown> | null;
   custom_title?: string | null;
@@ -19,6 +29,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the itinerary_stop_t collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyItineraryStopT(
   baseUrl: string,
   token: string,
@@ -34,6 +47,9 @@ export async function getManyItineraryStopT(
 
 /**
  * Fetches a single item from the itinerary_stop_t collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneItineraryStopT(
   baseUrl: string,

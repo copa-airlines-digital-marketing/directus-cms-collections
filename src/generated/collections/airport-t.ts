@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: airport_t
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_AirportT {
   about?: Record<string, unknown> | null;
   airport?: string | null;
@@ -19,6 +29,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the airport_t collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyAirportT(
   baseUrl: string,
   token: string,
@@ -29,6 +42,9 @@ export async function getManyAirportT(
 
 /**
  * Fetches a single item from the airport_t collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneAirportT(
   baseUrl: string,

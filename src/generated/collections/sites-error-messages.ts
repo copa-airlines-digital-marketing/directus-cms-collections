@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: sites_error_messages
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_SitesErrorMessages {
   error_code?: number | null;
   id?: number;
@@ -16,6 +26,9 @@ import type { Query } from '../../runtime/query.js';
 
 /**
  * Fetches multiple items from the sites_error_messages collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getManySitesErrorMessages(
   baseUrl: string,
@@ -32,6 +45,9 @@ export async function getManySitesErrorMessages(
 
 /**
  * Fetches a single item from the sites_error_messages collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneSitesErrorMessages(
   baseUrl: string,

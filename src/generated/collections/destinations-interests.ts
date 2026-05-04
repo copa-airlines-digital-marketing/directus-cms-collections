@@ -6,8 +6,6 @@
 export interface Item_DestinationsInterests {
   destination_category_id?: number | null;
   destinations_iata_code?: string | null;
-  id?: number;
-  sort?: number | null;
 }
 
 import { getItem } from '../../runtime/getItem.js';
@@ -22,12 +20,7 @@ export async function getManyDestinationsInterests(
   token: string,
   query?: Query<Item_DestinationsInterests>,
 ): Promise<Item_DestinationsInterests[]> {
-  return getItems<Item_DestinationsInterests>(
-    baseUrl,
-    'destinations_interests',
-    token,
-    query,
-  );
+  return getItems<Item_DestinationsInterests>(baseUrl, 'destinations_interests', token, query);
 }
 
 /**
@@ -39,11 +32,5 @@ export async function getOneDestinationsInterests(
   id: string | number,
   query?: Query<Item_DestinationsInterests>,
 ): Promise<Item_DestinationsInterests> {
-  return getItem<Item_DestinationsInterests>(
-    baseUrl,
-    'destinations_interests',
-    token,
-    id,
-    query,
-  );
+  return getItem<Item_DestinationsInterests>(baseUrl, 'destinations_interests', token, id, query);
 }

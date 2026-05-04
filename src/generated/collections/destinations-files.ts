@@ -21,12 +21,7 @@ export async function getManyDestinationsFiles(
   token: string,
   query?: Query<Item_DestinationsFiles>,
 ): Promise<Item_DestinationsFiles[]> {
-  return getItems<Item_DestinationsFiles>(
-    baseUrl,
-    'destinations_files',
-    token,
-    query,
-  );
+  return getItems<Item_DestinationsFiles>(baseUrl, 'destinations_files', token, query);
 }
 
 /**
@@ -38,11 +33,5 @@ export async function getOneDestinationsFiles(
   id: string | number,
   query?: Query<Item_DestinationsFiles>,
 ): Promise<Item_DestinationsFiles> {
-  return getItem<Item_DestinationsFiles>(
-    baseUrl,
-    'destinations_files',
-    token,
-    id,
-    query,
-  );
+  return getItem<Item_DestinationsFiles>(baseUrl, 'destinations_files', token, id, query);
 }

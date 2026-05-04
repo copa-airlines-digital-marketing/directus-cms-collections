@@ -5,21 +5,15 @@
 
 export interface Item_CustomFare {
   campaign?: string | null;
-  date_created?: string | null;
-  date_updated?: string | null;
   departure?: string | null;
   destination: string;
   end_date?: string | null;
-  id?: number;
   origin: string;
   price?: number;
   price_before?: number;
   return?: string | null;
   start_date?: string | null;
-  Status?: string | null;
   taxes?: number | null;
-  user_created?: string | null;
-  user_updated?: string | null;
 }
 
 import { getItem } from '../../runtime/getItem.js';

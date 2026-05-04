@@ -21,12 +21,7 @@ export async function getManyCurrencyConversionRate(
   token: string,
   query?: Query<Item_CurrencyConversionRate>,
 ): Promise<Item_CurrencyConversionRate[]> {
-  return getItems<Item_CurrencyConversionRate>(
-    baseUrl,
-    'currency_conversion_rate',
-    token,
-    query,
-  );
+  return getItems<Item_CurrencyConversionRate>(baseUrl, 'currency_conversion_rate', token, query);
 }
 
 /**
@@ -38,11 +33,5 @@ export async function getOneCurrencyConversionRate(
   id: string | number,
   query?: Query<Item_CurrencyConversionRate>,
 ): Promise<Item_CurrencyConversionRate> {
-  return getItem<Item_CurrencyConversionRate>(
-    baseUrl,
-    'currency_conversion_rate',
-    token,
-    id,
-    query,
-  );
+  return getItem<Item_CurrencyConversionRate>(baseUrl, 'currency_conversion_rate', token, id, query);
 }

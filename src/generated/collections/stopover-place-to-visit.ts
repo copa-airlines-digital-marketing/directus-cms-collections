@@ -1,10 +1,20 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: stopover_place_to_visit
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
 import type { GeoJSON } from '../../client/types.js';
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_StopoverPlaceToVisit {
   category?: Record<string, unknown> | null;
   copa_only?: unknown;
@@ -45,6 +55,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the stopover_place_to_visit collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyStopoverPlaceToVisit(
   baseUrl: string,
   token: string,
@@ -60,6 +73,9 @@ export async function getManyStopoverPlaceToVisit(
 
 /**
  * Fetches a single item from the stopover_place_to_visit collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverPlaceToVisit(
   baseUrl: string,

@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: pages_storefronts_sections
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_PagesStorefrontsSections {
   id?: number;
   pages_storefronts_id?: number | null;
@@ -16,6 +26,9 @@ import type { Query } from '../../runtime/query.js';
 
 /**
  * Fetches multiple items from the pages_storefronts_sections collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getManyPagesStorefrontsSections(
   baseUrl: string,
@@ -32,6 +45,9 @@ export async function getManyPagesStorefrontsSections(
 
 /**
  * Fetches a single item from the pages_storefronts_sections collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOnePagesStorefrontsSections(
   baseUrl: string,

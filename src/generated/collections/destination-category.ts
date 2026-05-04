@@ -4,16 +4,7 @@
  */
 
 export interface Item_DestinationCategory {
-  date_created?: string | null;
-  date_updated?: string | null;
-  destinations?: unknown;
-  id?: number;
-  image?: string | null;
-  name?: string | null;
-  status?: string;
   translations?: unknown;
-  user_created?: string | null;
-  user_updated?: string | null;
 }
 
 import { getItem } from '../../runtime/getItem.js';
@@ -28,12 +19,7 @@ export async function getManyDestinationCategory(
   token: string,
   query?: Query<Item_DestinationCategory>,
 ): Promise<Item_DestinationCategory[]> {
-  return getItems<Item_DestinationCategory>(
-    baseUrl,
-    'destination_category',
-    token,
-    query,
-  );
+  return getItems<Item_DestinationCategory>(baseUrl, 'destination_category', token, query);
 }
 
 /**
@@ -45,11 +31,5 @@ export async function getOneDestinationCategory(
   id: string | number,
   query?: Query<Item_DestinationCategory>,
 ): Promise<Item_DestinationCategory> {
-  return getItem<Item_DestinationCategory>(
-    baseUrl,
-    'destination_category',
-    token,
-    id,
-    query,
-  );
+  return getItem<Item_DestinationCategory>(baseUrl, 'destination_category', token, id, query);
 }

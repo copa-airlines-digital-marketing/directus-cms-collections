@@ -1,8 +1,18 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * Generated from Directus collection: icons
+ * 
+ * ⚠️ DEPRECATED COLLECTION ⚠️
+ * This collection no longer exists in Directus.
+ * Deprecated on: 2026-04-14
+ * 
+ * This file is kept for backward compatibility.
+ * Please migrate away from this collection before it's removed.
+ * To manually remove deprecated collections, run: pnpm clean:deprecated
  */
 
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export interface Item_Icons {
   category?: string | null;
   code?: string | null;
@@ -27,6 +37,9 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the icons collection
  */
+/**
+ * @deprecated This collection no longer exists in Directus
+ */
 export async function getManyIcons(
   baseUrl: string,
   token: string,
@@ -37,6 +50,9 @@ export async function getManyIcons(
 
 /**
  * Fetches a single item from the icons collection
+ */
+/**
+ * @deprecated This collection no longer exists in Directus
  */
 export async function getOneIcons(
   baseUrl: string,
