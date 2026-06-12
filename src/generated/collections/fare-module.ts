@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: fare_module
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_FareModule {
   date_created?: string | null;
   date_updated?: string | null;
@@ -30,9 +20,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the fare_module collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyFareModule(
   baseUrl: string,
   token: string,
@@ -43,9 +30,6 @@ export async function getManyFareModule(
 
 /**
  * Fetches a single item from the fare_module collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneFareModule(
   baseUrl: string,

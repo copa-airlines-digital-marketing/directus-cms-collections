@@ -1,20 +1,10 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: stopover_restaurants
  */
 
 import type { GeoJSON } from '../../client/types.js';
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_StopoverRestaurants {
   copa_only?: unknown;
   cuisines?: Record<string, unknown> | null;
@@ -23,7 +13,6 @@ export interface Item_StopoverRestaurants {
   date_reviewed?: string | null;
   date_submitted?: string | null;
   date_updated?: string | null;
-  duplicate: boolean;
   gallery: unknown;
   highlight?: boolean | null;
   id?: number;
@@ -55,9 +44,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the stopover_restaurants collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyStopoverRestaurants(
   baseUrl: string,
   token: string,
@@ -73,9 +59,6 @@ export async function getManyStopoverRestaurants(
 
 /**
  * Fetches a single item from the stopover_restaurants collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverRestaurants(
   baseUrl: string,

@@ -24,7 +24,12 @@ export async function getManyDestinationsTranslations(
   token: string,
   query?: Query<Item_DestinationsTranslations>,
 ): Promise<Item_DestinationsTranslations[]> {
-  return getItems<Item_DestinationsTranslations>(baseUrl, 'destinations_translations', token, query);
+  return getItems<Item_DestinationsTranslations>(
+    baseUrl,
+    'destinations_translations',
+    token,
+    query,
+  );
 }
 
 /**
@@ -36,5 +41,11 @@ export async function getOneDestinationsTranslations(
   id: string | number,
   query?: Query<Item_DestinationsTranslations>,
 ): Promise<Item_DestinationsTranslations> {
-  return getItem<Item_DestinationsTranslations>(baseUrl, 'destinations_translations', token, id, query);
+  return getItem<Item_DestinationsTranslations>(
+    baseUrl,
+    'destinations_translations',
+    token,
+    id,
+    query,
+  );
 }

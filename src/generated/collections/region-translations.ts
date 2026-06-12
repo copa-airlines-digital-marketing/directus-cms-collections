@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: region_translations
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_RegionTranslations {
   id?: number;
   languages_code?: string | null;
@@ -27,9 +17,6 @@ import type { Query } from '../../runtime/query.js';
 
 /**
  * Fetches multiple items from the region_translations collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getManyRegionTranslations(
   baseUrl: string,
@@ -46,9 +33,6 @@ export async function getManyRegionTranslations(
 
 /**
  * Fetches a single item from the region_translations collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneRegionTranslations(
   baseUrl: string,

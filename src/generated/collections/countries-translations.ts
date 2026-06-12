@@ -4,6 +4,8 @@
  */
 
 export interface Item_CountriesTranslations {
+  airtrfx_uri?: string | null;
+  countries_code?: string | null;
   id?: number;
   languages_code?: string | null;
   name?: string | null;
@@ -21,7 +23,12 @@ export async function getManyCountriesTranslations(
   token: string,
   query?: Query<Item_CountriesTranslations>,
 ): Promise<Item_CountriesTranslations[]> {
-  return getItems<Item_CountriesTranslations>(baseUrl, 'countries_translations', token, query);
+  return getItems<Item_CountriesTranslations>(
+    baseUrl,
+    'countries_translations',
+    token,
+    query,
+  );
 }
 
 /**
@@ -33,5 +40,11 @@ export async function getOneCountriesTranslations(
   id: string | number,
   query?: Query<Item_CountriesTranslations>,
 ): Promise<Item_CountriesTranslations> {
-  return getItem<Item_CountriesTranslations>(baseUrl, 'countries_translations', token, id, query);
+  return getItem<Item_CountriesTranslations>(
+    baseUrl,
+    'countries_translations',
+    token,
+    id,
+    query,
+  );
 }

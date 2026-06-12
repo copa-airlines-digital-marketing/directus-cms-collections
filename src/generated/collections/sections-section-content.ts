@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: sections_section_content
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_SectionsSectionContent {
   area?: string | null;
   collection?: string | null;
@@ -34,9 +24,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the sections_section_content collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManySectionsSectionContent(
   baseUrl: string,
   token: string,
@@ -52,9 +39,6 @@ export async function getManySectionsSectionContent(
 
 /**
  * Fetches a single item from the sections_section_content collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneSectionsSectionContent(
   baseUrl: string,

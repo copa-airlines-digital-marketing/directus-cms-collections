@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: copyrights_translations
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_CopyrightsTranslations {
   copyright: string;
   copyrights_id?: string | null;
@@ -26,9 +16,6 @@ import type { Query } from '../../runtime/query.js';
 
 /**
  * Fetches multiple items from the copyrights_translations collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getManyCopyrightsTranslations(
   baseUrl: string,
@@ -45,9 +32,6 @@ export async function getManyCopyrightsTranslations(
 
 /**
  * Fetches a single item from the copyrights_translations collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneCopyrightsTranslations(
   baseUrl: string,

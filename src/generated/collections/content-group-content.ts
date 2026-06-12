@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: content_group_content
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_ContentGroupContent {
   collection?: string | null;
   component?: string | null;
@@ -29,9 +19,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the content_group_content collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyContentGroupContent(
   baseUrl: string,
   token: string,
@@ -47,9 +34,6 @@ export async function getManyContentGroupContent(
 
 /**
  * Fetches a single item from the content_group_content collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneContentGroupContent(
   baseUrl: string,

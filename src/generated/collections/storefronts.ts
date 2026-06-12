@@ -5,7 +5,12 @@
 
 export interface Item_Storefronts {
   code: string;
+  date_created?: string | null;
+  date_updated?: string | null;
   name?: string | null;
+  status: string;
+  user_created?: string | null;
+  user_updated?: string | null;
 }
 
 import { getItem } from '../../runtime/getItem.js';

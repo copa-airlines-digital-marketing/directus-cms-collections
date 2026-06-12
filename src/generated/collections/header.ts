@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: header
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_Header {
   date_created?: string | null;
   date_updated?: string | null;
@@ -33,9 +23,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the header collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyHeader(
   baseUrl: string,
   token: string,
@@ -46,9 +33,6 @@ export async function getManyHeader(
 
 /**
  * Fetches a single item from the header collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneHeader(
   baseUrl: string,

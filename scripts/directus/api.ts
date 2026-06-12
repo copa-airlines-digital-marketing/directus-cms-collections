@@ -55,7 +55,7 @@ export async function fetchFields(
 }
 
 /**
- * Filters out system collections
+ * Filters out system collections and Directus folders/groups.
  */
 export function filterSystemCollections(
   collections: DirectusCollection[],
@@ -67,6 +67,11 @@ export function filterSystemCollections(
     }
     // Exclude collections marked as system in meta
     if (col.meta?.system === true) {
+      return false;
+    }
+    // Exclude Directus folders/groups. They appear in /collections but do not
+    // have a backing database table, so /fields/:collection returns 403.
+    if (!col.schema) {
       return false;
     }
     return true;

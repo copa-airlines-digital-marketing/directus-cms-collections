@@ -1,20 +1,10 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: stopover_tour
  */
 
 import type { GeoJSON } from '../../client/types.js';
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_StopoverTour {
   category?: Record<string, unknown>;
   children?: unknown;
@@ -56,9 +46,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the stopover_tour collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyStopoverTour(
   baseUrl: string,
   token: string,
@@ -69,9 +56,6 @@ export async function getManyStopoverTour(
 
 /**
  * Fetches a single item from the stopover_tour collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverTour(
   baseUrl: string,

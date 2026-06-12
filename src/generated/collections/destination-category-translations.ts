@@ -4,6 +4,9 @@
  */
 
 export interface Item_DestinationCategoryTranslations {
+  airtfx_uri?: string | null;
+  destination_category_id?: number | null;
+  id?: number;
   languages_code?: string | null;
   name?: string | null;
 }
@@ -20,7 +23,12 @@ export async function getManyDestinationCategoryTranslations(
   token: string,
   query?: Query<Item_DestinationCategoryTranslations>,
 ): Promise<Item_DestinationCategoryTranslations[]> {
-  return getItems<Item_DestinationCategoryTranslations>(baseUrl, 'destination_category_translations', token, query);
+  return getItems<Item_DestinationCategoryTranslations>(
+    baseUrl,
+    'destination_category_translations',
+    token,
+    query,
+  );
 }
 
 /**
@@ -32,5 +40,11 @@ export async function getOneDestinationCategoryTranslations(
   id: string | number,
   query?: Query<Item_DestinationCategoryTranslations>,
 ): Promise<Item_DestinationCategoryTranslations> {
-  return getItem<Item_DestinationCategoryTranslations>(baseUrl, 'destination_category_translations', token, id, query);
+  return getItem<Item_DestinationCategoryTranslations>(
+    baseUrl,
+    'destination_category_translations',
+    token,
+    id,
+    query,
+  );
 }

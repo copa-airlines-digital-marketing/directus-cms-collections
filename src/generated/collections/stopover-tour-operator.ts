@@ -1,22 +1,15 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: stopover_tour_operator
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_StopoverTourOperator {
   children?: unknown;
   contact?: Record<string, unknown> | null;
   date_created?: string | null;
+  date_published?: string | null;
+  date_reviewed?: string | null;
+  date_submitted?: string | null;
   date_updated?: string | null;
   duplicate: boolean;
   highlight?: boolean | null;
@@ -40,9 +33,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the stopover_tour_operator collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyStopoverTourOperator(
   baseUrl: string,
   token: string,
@@ -58,9 +48,6 @@ export async function getManyStopoverTourOperator(
 
 /**
  * Fetches a single item from the stopover_tour_operator collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverTourOperator(
   baseUrl: string,

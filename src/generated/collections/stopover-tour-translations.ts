@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: stopover_tour_translations
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_StopoverTourTranslations {
   description?: string | null;
   experience?: Record<string, unknown> | null;
@@ -35,9 +25,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the stopover_tour_translations collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyStopoverTourTranslations(
   baseUrl: string,
   token: string,
@@ -53,9 +40,6 @@ export async function getManyStopoverTourTranslations(
 
 /**
  * Fetches a single item from the stopover_tour_translations collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverTourTranslations(
   baseUrl: string,

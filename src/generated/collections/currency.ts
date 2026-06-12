@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: currency
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_Currency {
   code?: string;
   date_created?: string | null;
@@ -32,9 +22,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the currency collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyCurrency(
   baseUrl: string,
   token: string,
@@ -45,9 +32,6 @@ export async function getManyCurrency(
 
 /**
  * Fetches a single item from the currency collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneCurrency(
   baseUrl: string,

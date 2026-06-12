@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: tag
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_Tag {
   category: string;
   date_created?: string | null;
@@ -31,9 +21,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the tag collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyTag(
   baseUrl: string,
   token: string,
@@ -44,9 +31,6 @@ export async function getManyTag(
 
 /**
  * Fetches a single item from the tag collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneTag(
   baseUrl: string,

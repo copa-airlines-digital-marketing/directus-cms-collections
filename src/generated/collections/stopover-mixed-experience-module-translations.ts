@@ -1,26 +1,23 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: stopover_mixed_experience_module_translations
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_StopoverMixedExperienceModuleTranslations {
   description?: Record<string, unknown> | null;
   disclaimer_text?: Record<string, unknown> | null;
+  filter_apply_label?: string | null;
+  filter_category_label?: string | null;
+  filter_discount_label?: string | null;
+  filter_distance_label?: string | null;
+  filter_duration_label?: string | null;
+  filter_language_label?: string | null;
   id?: number;
   languages_code?: string | null;
   primary_cta?: unknown;
   primary_cta_label?: string | null;
   primary_cta_url?: string | null;
+  reference_point_label?: string | null;
   secondary_cta?: unknown;
   secondary_cta_label?: string | null;
   secondary_cta_url?: string | null;
@@ -34,9 +31,6 @@ import type { Query } from '../../runtime/query.js';
 
 /**
  * Fetches multiple items from the stopover_mixed_experience_module_translations collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getManyStopoverMixedExperienceModuleTranslations(
   baseUrl: string,
@@ -53,9 +47,6 @@ export async function getManyStopoverMixedExperienceModuleTranslations(
 
 /**
  * Fetches a single item from the stopover_mixed_experience_module_translations collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverMixedExperienceModuleTranslations(
   baseUrl: string,

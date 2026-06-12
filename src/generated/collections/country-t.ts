@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: country_t
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_CountryT {
   country?: string | null;
   id?: number;
@@ -27,9 +17,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the country_t collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyCountryT(
   baseUrl: string,
   token: string,
@@ -40,9 +27,6 @@ export async function getManyCountryT(
 
 /**
  * Fetches a single item from the country_t collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneCountryT(
   baseUrl: string,

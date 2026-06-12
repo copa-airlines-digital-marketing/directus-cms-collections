@@ -1,18 +1,8 @@
 /**
  * AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
- * 
- * ⚠️ DEPRECATED COLLECTION ⚠️
- * This collection no longer exists in Directus.
- * Deprecated on: 2026-04-14
- * 
- * This file is kept for backward compatibility.
- * Please migrate away from this collection before it's removed.
- * To manually remove deprecated collections, run: pnpm clean:deprecated
+ * Generated from Directus collection: stopover_package
  */
 
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export interface Item_StopoverPackage {
   children?: unknown;
   contact?: Record<string, unknown> | null;
@@ -49,9 +39,6 @@ import type { Query } from '../../runtime/query.js';
 /**
  * Fetches multiple items from the stopover_package collection
  */
-/**
- * @deprecated This collection no longer exists in Directus
- */
 export async function getManyStopoverPackage(
   baseUrl: string,
   token: string,
@@ -67,9 +54,6 @@ export async function getManyStopoverPackage(
 
 /**
  * Fetches a single item from the stopover_package collection
- */
-/**
- * @deprecated This collection no longer exists in Directus
  */
 export async function getOneStopoverPackage(
   baseUrl: string,

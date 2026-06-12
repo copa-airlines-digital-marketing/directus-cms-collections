@@ -24,7 +24,12 @@ export async function getManyDestinationOfTheMonthTranslations(
   token: string,
   query?: Query<Item_DestinationOfTheMonthTranslations>,
 ): Promise<Item_DestinationOfTheMonthTranslations[]> {
-  return getItems<Item_DestinationOfTheMonthTranslations>(baseUrl, 'destination_of_the_month_translations', token, query);
+  return getItems<Item_DestinationOfTheMonthTranslations>(
+    baseUrl,
+    'destination_of_the_month_translations',
+    token,
+    query,
+  );
 }
 
 /**
@@ -36,5 +41,11 @@ export async function getOneDestinationOfTheMonthTranslations(
   id: string | number,
   query?: Query<Item_DestinationOfTheMonthTranslations>,
 ): Promise<Item_DestinationOfTheMonthTranslations> {
-  return getItem<Item_DestinationOfTheMonthTranslations>(baseUrl, 'destination_of_the_month_translations', token, id, query);
+  return getItem<Item_DestinationOfTheMonthTranslations>(
+    baseUrl,
+    'destination_of_the_month_translations',
+    token,
+    id,
+    query,
+  );
 }
